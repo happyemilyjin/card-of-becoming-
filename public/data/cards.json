@@ -1,0 +1,482 @@
+{
+  "style": {
+    "keywords": [
+      "gothic-surrealist oracle",
+      "symmetrical",
+      "central symbolic illustration field",
+      "no border, no cartouche, no readable text",
+      "indigo gold grey chiaroscuro",
+      "3:4 portrait tarot, full bleed"
+    ]
+  },
+  "cards": [
+    {
+      "filename": "01_the_dreaming_seed.png",
+      "concept": "The Dreaming Seed",
+      "keywords": [
+        "glowing seed",
+        "glass terrarium",
+        "bioluminescent gold",
+        "petrified soil",
+        "root tendrils"
+      ],
+      "shortMeaning": "Hidden potential",
+      "number": "01"
+    },
+    {
+      "filename": "02_the_cosmic_thorn.png",
+      "concept": "The Cosmic Thorn",
+      "keywords": [
+        "water droplet",
+        "briar thorn",
+        "cosmos reflection",
+        "oxidized metal",
+        "indigo mist"
+      ],
+      "shortMeaning": "Painful wisdom",
+      "number": "02"
+    },
+    {
+      "filename": "03_the_woven_offering.png",
+      "concept": "The Woven Offering",
+      "keywords": [
+        "raw fleece",
+        "stone altar",
+        "ruined chapel",
+        "golden fiber light",
+        "stained glass shards"
+      ],
+      "shortMeaning": "Devoted sacrifice",
+      "number": "03"
+    },
+    {
+      "filename": "04_the_alchemists_fate.png",
+      "concept": "The Alchemist's Fate",
+      "keywords": [
+        "iron cauldron",
+        "crimson dye",
+        "flooded cave",
+        "black water",
+        "steam spirals"
+      ],
+      "shortMeaning": "Risky transformation",
+      "number": "04"
+    },
+    {
+      "filename": "05_oraculum_de_profundis.png",
+      "concept": "Oraculum De Profundis",
+      "keywords": [
+        "wooden distaff",
+        "dark fibers",
+        "flooded hallway",
+        "indigo fog",
+        "mirror water"
+      ],
+      "shortMeaning": "Deep intuition",
+      "number": "05"
+    },
+    {
+      "filename": "06_the_spindle_of_fate.png",
+      "concept": "The Spindle of Fate",
+      "keywords": [
+        "bone spindle",
+        "starlight thread",
+        "glowing runes",
+        "dark sphere",
+        "cerulean arcs"
+      ],
+      "shortMeaning": "Threads of destiny",
+      "number": "06"
+    },
+    {
+      "filename": "07_the_cosmic_needle.png",
+      "concept": "The Cosmic Needle",
+      "keywords": [
+        "silver needle",
+        "cosmic nebula",
+        "gold filament",
+        "indigo dust",
+        "shattered stars"
+      ],
+      "shortMeaning": "Precise connection",
+      "number": "07"
+    },
+    {
+      "filename": "08_the_alchemical_union.png",
+      "concept": "The Alchemical Union",
+      "keywords": [
+        "two glowing threads",
+        "gold and silver",
+        "knot macro",
+        "electric sparks",
+        "black void"
+      ],
+      "shortMeaning": "Opposites unite",
+      "number": "08"
+    },
+    {
+      "filename": "09_the_clockwork_ram.png",
+      "concept": "The Clockwork Ram",
+      "keywords": [
+        "clockwork ram",
+        "hammered gold fleece",
+        "ancient coins",
+        "stone vault",
+        "indigo gem eyes"
+      ],
+      "shortMeaning": "Disciplined force",
+      "number": "09"
+    },
+    {
+      "filename": "10_the_loom_of_fate.png",
+      "concept": "The Loom of Fate",
+      "keywords": [
+        "cathedral loom",
+        "flooded nave",
+        "luminous warp",
+        "carved beams",
+        "motionless stars"
+      ],
+      "shortMeaning": "Life's pattern",
+      "number": "10"
+    },
+    {
+      "filename": "11_the_spiders_thread.png",
+      "concept": "The Spider's Thread",
+      "keywords": [
+        "thread spool",
+        "spider silk",
+        "gothic library",
+        "cobwebs",
+        "cracked lantern"
+      ],
+      "shortMeaning": "Fragile connection",
+      "number": "11"
+    },
+    {
+      "filename": "12_the_shuttle_of_fate.png",
+      "concept": "The Shuttle of Fate",
+      "keywords": [
+        "dark wood shuttle",
+        "underground river",
+        "bone inlay hull",
+        "glowing wake thread",
+        "wet stone arch"
+      ],
+      "shortMeaning": "Movement between worlds",
+      "number": "12"
+    },
+    {
+      "filename": "13_oracle_of_the_shattered_veil.png",
+      "concept": "Oracle of the Shattered Veil",
+      "keywords": [
+        "glowing vertical strings",
+        "shattered stained glass",
+        "storm sky",
+        "lightning",
+        "eroded stone faces"
+      ],
+      "shortMeaning": "Revealed truth",
+      "number": "13"
+    },
+    {
+      "filename": "14_the_unraveling_tide.png",
+      "concept": "The Unraveling Tide",
+      "keywords": [
+        "fabric wave",
+        "floating ruined furniture",
+        "silk and wool",
+        "gold to teal light",
+        "thread foam"
+      ],
+      "shortMeaning": "Emotional release",
+      "number": "14"
+    },
+    {
+      "filename": "15_the_shielded_thimble.png",
+      "concept": "The Shielded Thimble",
+      "keywords": [
+        "bronze thimble",
+        "suspended glass shards",
+        "frozen impact",
+        "helmet mouth view",
+        "indigo shadow"
+      ],
+      "shortMeaning": "Quiet protection",
+      "number": "15"
+    },
+    {
+      "filename": "16_the_architects_echo.png",
+      "concept": "The Architect's Echo",
+      "keywords": [
+        "fractal blueprint",
+        "mossy stone table",
+        "gold lines on indigo",
+        "dark chamber",
+        "single light source"
+      ],
+      "shortMeaning": "Past structures",
+      "number": "16"
+    },
+    {
+      "filename": "17_the_fate_weavers_hand.png",
+      "concept": "The Fate-Weaver's Hand",
+      "keywords": [
+        "marble hand statue",
+        "colored hot threads",
+        "gold veining",
+        "wrist fracture",
+        "stone fused with fiber"
+      ],
+      "shortMeaning": "Shaping destiny",
+      "number": "17"
+    },
+    {
+      "filename": "18_the_weavers_pedals.png",
+      "concept": "The Weaver's Pedals",
+      "keywords": [
+        "granite treadles",
+        "ghost white flowers",
+        "damp crypt",
+        "chains into void",
+        "flagstone"
+      ],
+      "shortMeaning": "Repeated effort",
+      "number": "18"
+    },
+    {
+      "filename": "19_chaos_bound.png",
+      "concept": "Chaos Bound",
+      "keywords": [
+        "knotted rope sphere",
+        "rust chains",
+        "lightning indigo sky",
+        "pale gold storm edge",
+        "circular chaos"
+      ],
+      "shortMeaning": "Controlled disorder",
+      "number": "19"
+    },
+    {
+      "filename": "20_decaying_oracle.png",
+      "concept": "Decaying Oracle",
+      "keywords": [
+        "tapestry moth wings",
+        "skull plinth",
+        "faded gold crimson weave",
+        "grey gold dust",
+        "blue ember eyes"
+      ],
+      "shortMeaning": "Fading wisdom",
+      "number": "20"
+    },
+    {
+      "filename": "21_the_rupture.png",
+      "concept": "The Rupture",
+      "keywords": [
+        "rope snapping",
+        "electric sparks",
+        "frayed fibers",
+        "diagonal composition",
+        "indigo black"
+      ],
+      "shortMeaning": "Sudden break",
+      "number": "21"
+    },
+    {
+      "filename": "22_the_severed_tie.png",
+      "concept": "The Severed Tie",
+      "keywords": [
+        "ornate gold shears",
+        "blood-red rust",
+        "white marble",
+        "ceremonial scale",
+        "closed blades"
+      ],
+      "shortMeaning": "Cut bond",
+      "number": "22"
+    },
+    {
+      "filename": "23_the_unraveling.png",
+      "concept": "The Unraveling",
+      "keywords": [
+        "void tear",
+        "woven starscape",
+        "gold silver constellations",
+        "unraveling threads",
+        "pure absence"
+      ],
+      "shortMeaning": "Pattern undone",
+      "number": "23"
+    },
+    {
+      "filename": "24_the_unspooling_spiral.png",
+      "concept": "The Unspooling Spiral",
+      "keywords": [
+        "crimson yarn",
+        "spiral stone stairs",
+        "wet steps",
+        "red trail",
+        "bottomless dark"
+      ],
+      "shortMeaning": "Descent inward",
+      "number": "24"
+    },
+    {
+      "filename": "25_the_reflected_loom.png",
+      "concept": "The Reflected Loom",
+      "keywords": [
+        "black ink pool",
+        "distorted loom reflection",
+        "wrong geometry",
+        "empty real room",
+        "salt ring"
+      ],
+      "shortMeaning": "Hidden labor",
+      "number": "25"
+    },
+    {
+      "filename": "26_the_suspended_moment.png",
+      "concept": "The Suspended Moment",
+      "keywords": [
+        "runic stone weight",
+        "single frayed thread",
+        "mist chasm",
+        "glowing runes",
+        "imminent break"
+      ],
+      "shortMeaning": "Time paused",
+      "number": "26"
+    },
+    {
+      "filename": "27_the_severance.png",
+      "concept": "The Severance",
+      "keywords": [
+        "golden thread cut",
+        "two floating ends",
+        "infinite black gulf",
+        "inner glow",
+        "clean severance"
+      ],
+      "shortMeaning": "Quiet separation",
+      "number": "27"
+    },
+    {
+      "filename": "28_the_unseen_weaver.png",
+      "concept": "The Unseen Weaver",
+      "keywords": [
+        "starlight cloak",
+        "invisible wearer",
+        "unraveling hem",
+        "constellation weave",
+        "one candle"
+      ],
+      "shortMeaning": "Invisible influence",
+      "number": "28"
+    },
+    {
+      "filename": "29_the_forgotten_celestial_war.png",
+      "concept": "The Forgotten Celestial War",
+      "keywords": [
+        "colossal tapestry",
+        "celestial war weave",
+        "ruined roofless hall",
+        "moonlit violence",
+        "fabric voids"
+      ],
+      "shortMeaning": "Buried conflict",
+      "number": "29"
+    },
+    {
+      "filename": "30_the_mender_of_broken_things.png",
+      "concept": "The Mender of Broken Things",
+      "keywords": [
+        "stitched leather figure",
+        "copper wire wood",
+        "dusty attic",
+        "glowing needle",
+        "shredded cloth"
+      ],
+      "shortMeaning": "Careful repair",
+      "number": "30"
+    },
+    {
+      "filename": "31_the_veiled_mirror.png",
+      "concept": "The Veiled Mirror",
+      "keywords": [
+        "sheer veil",
+        "cracked mirror",
+        "burning cosmos reflection",
+        "tarnished gold frame",
+        "cold stone floor"
+      ],
+      "shortMeaning": "Hidden self",
+      "number": "31"
+    },
+    {
+      "filename": "32_the_measure_of_eternity.png",
+      "concept": "The Measure of Eternity",
+      "keywords": [
+        "gold ribbon measure",
+        "archaic script marks",
+        "dying white sun",
+        "salt flat horizon",
+        "vanishing point"
+      ],
+      "shortMeaning": "Endless time",
+      "number": "32"
+    },
+    {
+      "filename": "33_completion.png",
+      "concept": "Completion",
+      "keywords": [
+        "celtic knot",
+        "iron skeletal palm",
+        "liquid gold light",
+        "amber bone glow",
+        "still darkness"
+      ],
+      "shortMeaning": "Cycle fulfilled",
+      "number": "33"
+    },
+    {
+      "filename": "34_the_orb_of_memory.png",
+      "concept": "The Orb of Memory",
+      "keywords": [
+        "glass eye orb",
+        "tapestry in pupil",
+        "barbed wire nest",
+        "indigo iris",
+        "compressed civilization"
+      ],
+      "shortMeaning": "Preserved past",
+      "number": "34"
+    },
+    {
+      "filename": "35_the_veil_of_silence.png",
+      "concept": "The Veil of Silence",
+      "keywords": [
+        "radiant gold cloth",
+        "stone sarcophagus",
+        "tomb glyph walls",
+        "suspended dust",
+        "immense stillness"
+      ],
+      "shortMeaning": "Unspoken truth",
+      "number": "35"
+    },
+    {
+      "filename": "36_cosmic_severance.png",
+      "concept": "Cosmic Severance",
+      "keywords": [
+        "cosmic shears",
+        "tiny glowing earth",
+        "star names on blades",
+        "dying sun pivot",
+        "deep indigo space"
+      ],
+      "shortMeaning": "Final separation",
+      "number": "36"
+    }
+  ]
+}

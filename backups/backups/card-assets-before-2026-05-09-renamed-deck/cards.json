@@ -1,0 +1,409 @@
+{
+  "style": {
+    "keywords": [
+      "gothic-surrealist oracle",
+      "symmetrical",
+      "gold filigree border, title cartouche",
+      "indigo gold grey chiaroscuro",
+      "3:4 portrait tarot, full bleed"
+    ]
+  },
+  "cards": [
+    {
+      "filename": "01_The_Seed_of_Flax_00001_.png",
+      "concept": "The Seed of Flax",
+      "keywords": [
+        "glowing seed",
+        "glass terrarium",
+        "bioluminescent gold",
+        "petrified soil",
+        "root tendrils"
+      ]
+    },
+    {
+      "filename": "02_The_Dew_Drop_00001_.png",
+      "concept": "The Dew Drop",
+      "keywords": [
+        "water droplet",
+        "briar thorn",
+        "cosmos reflection",
+        "oxidized metal",
+        "indigo mist"
+      ]
+    },
+    {
+      "filename": "03_The_Raw_Wool_00001_.png",
+      "concept": "The Raw Wool",
+      "keywords": [
+        "raw fleece",
+        "stone altar",
+        "ruined chapel",
+        "golden fiber light",
+        "stained glass shards"
+      ]
+    },
+    {
+      "filename": "04_The_Dye_Pot_00001_.png",
+      "concept": "The Dye Pot",
+      "keywords": [
+        "iron cauldron",
+        "crimson dye",
+        "flooded cave",
+        "black water",
+        "steam spirals"
+      ]
+    },
+    {
+      "filename": "05_The_Distaff_00001_.png",
+      "concept": "The Distaff",
+      "keywords": [
+        "wooden distaff",
+        "dark fibers",
+        "flooded hallway",
+        "indigo fog",
+        "mirror water"
+      ]
+    },
+    {
+      "filename": "06_The_Spindle_00001_.png",
+      "concept": "The Spindle",
+      "keywords": [
+        "bone spindle",
+        "starlight thread",
+        "glowing runes",
+        "dark sphere",
+        "cerulean arcs"
+      ]
+    },
+    {
+      "filename": "07_The_Silver_Needle_00001_.png",
+      "concept": "The Silver Needle",
+      "keywords": [
+        "silver needle",
+        "cosmic nebula",
+        "gold filament",
+        "indigo dust",
+        "shattered stars"
+      ]
+    },
+    {
+      "filename": "08_The_First_Knot_00001_.png",
+      "concept": "The First Knot",
+      "keywords": [
+        "two glowing threads",
+        "gold and silver",
+        "knot macro",
+        "electric sparks",
+        "black void"
+      ]
+    },
+    {
+      "filename": "09_The_Golden_Fleece_00001_.png",
+      "concept": "The Golden Fleece",
+      "keywords": [
+        "clockwork ram",
+        "hammered gold fleece",
+        "ancient coins",
+        "stone vault",
+        "indigo gem eyes"
+      ]
+    },
+    {
+      "filename": "10_The_Loom_00001_.png",
+      "concept": "The Loom",
+      "keywords": [
+        "cathedral loom",
+        "flooded nave",
+        "luminous warp",
+        "carved beams",
+        "motionless stars"
+      ]
+    },
+    {
+      "filename": "11_The_Bobbin_00001_.png",
+      "concept": "The Bobbin",
+      "keywords": [
+        "thread spool",
+        "spider silk",
+        "gothic library",
+        "cobwebs",
+        "cracked lantern"
+      ]
+    },
+    {
+      "filename": "12_The_Shuttle_00001_.png",
+      "concept": "The Shuttle",
+      "keywords": [
+        "dark wood shuttle",
+        "underground river",
+        "bone inlay hull",
+        "glowing wake thread",
+        "wet stone arch"
+      ]
+    },
+    {
+      "filename": "13_The_Warp_00001_.png",
+      "concept": "The Warp",
+      "keywords": [
+        "glowing vertical strings",
+        "shattered stained glass",
+        "storm sky",
+        "lightning",
+        "eroded stone faces"
+      ]
+    },
+    {
+      "filename": "14_The_Weft_00001_.png",
+      "concept": "The Weft",
+      "keywords": [
+        "fabric wave",
+        "floating ruined furniture",
+        "silk and wool",
+        "gold to teal light",
+        "thread foam"
+      ]
+    },
+    {
+      "filename": "15_The_Thimble_00001_.png",
+      "concept": "The Thimble",
+      "keywords": [
+        "bronze thimble",
+        "suspended glass shards",
+        "frozen impact",
+        "helmet mouth view",
+        "indigo shadow"
+      ]
+    },
+    {
+      "filename": "16_The_Pattern_00001_.png",
+      "concept": "The Pattern",
+      "keywords": [
+        "fractal blueprint",
+        "mossy stone table",
+        "gold lines on indigo",
+        "dark chamber",
+        "single light source"
+      ]
+    },
+    {
+      "filename": "17_The_Weavers_Hand_00001_.png",
+      "concept": "The Weavers Hand",
+      "keywords": [
+        "marble hand statue",
+        "colored hot threads",
+        "gold veining",
+        "wrist fracture",
+        "stone fused with fiber"
+      ]
+    },
+    {
+      "filename": "18_The_Treadle_00001_.png",
+      "concept": "The Treadle",
+      "keywords": [
+        "granite treadles",
+        "ghost white flowers",
+        "damp crypt",
+        "chains into void",
+        "flagstone"
+      ]
+    },
+    {
+      "filename": "19_The_Tangle_00001_.png",
+      "concept": "The Tangle",
+      "keywords": [
+        "knotted rope sphere",
+        "rust chains",
+        "lightning indigo sky",
+        "pale gold storm edge",
+        "circular chaos"
+      ]
+    },
+    {
+      "filename": "20_The_Moth_00001_.png",
+      "concept": "The Moth",
+      "keywords": [
+        "tapestry moth wings",
+        "skull plinth",
+        "faded gold crimson weave",
+        "grey gold dust",
+        "blue ember eyes"
+      ]
+    },
+    {
+      "filename": "21_The_Frayed_Edge_00001_.png",
+      "concept": "The Frayed Edge",
+      "keywords": [
+        "rope snapping",
+        "electric sparks",
+        "frayed fibers",
+        "diagonal composition",
+        "indigo black"
+      ]
+    },
+    {
+      "filename": "22_The_Rust_00001_.png",
+      "concept": "The Rust",
+      "keywords": [
+        "ornate gold shears",
+        "blood-red rust",
+        "white marble",
+        "ceremonial scale",
+        "closed blades"
+      ]
+    },
+    {
+      "filename": "23_The_Dropped_Stitch_00001_.png",
+      "concept": "The Dropped Stitch",
+      "keywords": [
+        "void tear",
+        "woven starscape",
+        "gold silver constellations",
+        "unraveling threads",
+        "pure absence"
+      ]
+    },
+    {
+      "filename": "24_The_Tangled_Skein_00001_.png",
+      "concept": "The Tangled Skein",
+      "keywords": [
+        "crimson yarn",
+        "spiral stone stairs",
+        "wet steps",
+        "red trail",
+        "bottomless dark"
+      ]
+    },
+    {
+      "filename": "25_The_Shadow_Loom_00001_.png",
+      "concept": "The Shadow Loom",
+      "keywords": [
+        "black ink pool",
+        "distorted loom reflection",
+        "wrong geometry",
+        "empty real room",
+        "salt ring"
+      ]
+    },
+    {
+      "filename": "26_The_Loom_Weight_00001_.png",
+      "concept": "The Loom Weight",
+      "keywords": [
+        "runic stone weight",
+        "single frayed thread",
+        "mist chasm",
+        "glowing runes",
+        "imminent break"
+      ]
+    },
+    {
+      "filename": "27_The_Severed_Thread_00001_.png",
+      "concept": "The Severed Thread",
+      "keywords": [
+        "golden thread cut",
+        "two floating ends",
+        "infinite black gulf",
+        "inner glow",
+        "clean severance"
+      ]
+    },
+    {
+      "filename": "28_The_Unfinished_Cloak_00001_.png",
+      "concept": "The Unfinished Cloak",
+      "keywords": [
+        "starlight cloak",
+        "invisible wearer",
+        "unraveling hem",
+        "constellation weave",
+        "one candle"
+      ]
+    },
+    {
+      "filename": "29_The_Tapestry_00001_.png",
+      "concept": "The Tapestry",
+      "keywords": [
+        "colossal tapestry",
+        "celestial war weave",
+        "ruined roofless hall",
+        "moonlit violence",
+        "fabric voids"
+      ]
+    },
+    {
+      "filename": "30_The_Mender_00001_.png",
+      "concept": "The Mender",
+      "keywords": [
+        "stitched leather figure",
+        "copper wire wood",
+        "dusty attic",
+        "glowing needle",
+        "shredded cloth"
+      ]
+    },
+    {
+      "filename": "31_The_Veil_00001_.png",
+      "concept": "The Veil",
+      "keywords": [
+        "sheer veil",
+        "cracked mirror",
+        "burning cosmos reflection",
+        "tarnished gold frame",
+        "cold stone floor"
+      ]
+    },
+    {
+      "filename": "32_The_Measuring_Tape_00001_.png",
+      "concept": "The Measuring Tape",
+      "keywords": [
+        "gold ribbon measure",
+        "archaic script marks",
+        "dying white sun",
+        "salt flat horizon",
+        "vanishing point"
+      ]
+    },
+    {
+      "filename": "33_The_Final_Knot_00001_.png",
+      "concept": "The Final Knot",
+      "keywords": [
+        "celtic knot",
+        "iron skeletal palm",
+        "liquid gold light",
+        "amber bone glow",
+        "still darkness"
+      ]
+    },
+    {
+      "filename": "34_The_Weavers_Eye_00001_.png",
+      "concept": "The Weavers Eye",
+      "keywords": [
+        "glass eye orb",
+        "tapestry in pupil",
+        "barbed wire nest",
+        "indigo iris",
+        "compressed civilization"
+      ]
+    },
+    {
+      "filename": "35_The_Cloth_of_Gold_00001_.png",
+      "concept": "The Cloth of Gold",
+      "keywords": [
+        "radiant gold cloth",
+        "stone sarcophagus",
+        "tomb glyph walls",
+        "suspended dust",
+        "immense stillness"
+      ]
+    },
+    {
+      "filename": "36_The_Scissors_of_Fate_00001_.png",
+      "concept": "The Scissors of Fate",
+      "keywords": [
+        "cosmic shears",
+        "tiny glowing earth",
+        "star names on blades",
+        "dying sun pivot",
+        "deep indigo space"
+      ]
+    }
+  ]
+}

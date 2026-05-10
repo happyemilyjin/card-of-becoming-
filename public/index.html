@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card of Becoming</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+</head>
+<body>
+  <div id="ui-container">
+    <div id="api-key-overlay" class="overlay">
+      <div class="modal">
+        <h1>Card of Becoming</h1>
+        <p>Enter your OpenAI API key to begin the ritual.</p>
+        <input type="password" id="api-key-input" placeholder="sk-xxxxxxxxxxxxxxxxxxxx">
+        <button id="start-btn">Begin</button>
+      </div>
+    </div>
+    
+    <button id="generate-btn" class="hidden">Generate Reading</button>
+    <button id="reset-btn" class="hidden">Start Over</button>
+  </div>
+
+  <script type="module" src="api.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
