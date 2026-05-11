@@ -728,31 +728,31 @@ function drawSelectionBursts() {
 
 function drawPickFourPrompt() {
   push();
-  const promptY = height * (height < 760 ? 0.4 : 0.44) + sin(frameCount * 0.035) * 4;
+  const promptY = height * (height < 760 ? 0.17 : 0.2) + sin(frameCount * 0.035) * 3;
   const glow = 0.5 + sin(frameCount * 0.04) * 0.5;
   textAlign(CENTER, CENTER);
   textFont("Georgia");
-  textSize(max(17, min(28, width * 0.022)));
+  textSize(max(15, min(23, width * 0.018)));
   textStyle(ITALIC);
-  drawingContext.shadowColor = `rgba(170, 130, 255, ${0.18 + glow * 0.18})`;
-  drawingContext.shadowBlur = 22;
-  fill(248, 228, 174, 175 + glow * 50);
+  drawingContext.shadowColor = `rgba(170, 130, 255, ${0.12 + glow * 0.14})`;
+  drawingContext.shadowBlur = 16;
+  fill(248, 228, 174, 150 + glow * 42);
   noStroke();
   text("Pick 4 cards with your heart", width / 2, promptY);
 
   drawingContext.shadowBlur = 0;
-  stroke(230, 205, 145, 55 + glow * 45);
+  stroke(230, 205, 145, 38 + glow * 34);
   strokeWeight(0.8);
-  const lineW = min(120, width * 0.14);
-  line(width / 2 - lineW - 170 * getLayoutScale(), promptY, width / 2 - 54 * getLayoutScale(), promptY);
-  line(width / 2 + 54 * getLayoutScale(), promptY, width / 2 + lineW + 170 * getLayoutScale(), promptY);
+  const lineW = min(86, width * 0.1);
+  line(width / 2 - lineW - 130 * getLayoutScale(), promptY, width / 2 - 48 * getLayoutScale(), promptY);
+  line(width / 2 + 48 * getLayoutScale(), promptY, width / 2 + lineW + 130 * getLayoutScale(), promptY);
 
   noStroke();
-  fill(248, 228, 174, 130 + glow * 80);
+  fill(248, 228, 174, 95 + glow * 62);
   for (let i = 0; i < 2; i++) {
     const side = i === 0 ? -1 : 1;
-    const x = width / 2 + side * (lineW + 136 * getLayoutScale());
-    const sparkleSize = 3.5 + sin(frameCount * 0.08 + i * PI) * 1.2;
+    const x = width / 2 + side * (lineW + 100 * getLayoutScale());
+    const sparkleSize = 3 + sin(frameCount * 0.08 + i * PI) * 0.9;
     ellipse(x, promptY, sparkleSize);
     ellipse(x + side * 14, promptY - 8, sparkleSize * 0.55);
   }
@@ -983,8 +983,10 @@ function drawReveal() {
 
   revealAlpha = lerp(revealAlpha, 255, 0.03);
 
-  const maxW = width * (width < 900 ? 0.62 : 0.45);
-  const maxH = height * (height < 760 ? 0.6 : 0.75);
+  const compactReveal = height < 760;
+  const maxW = width * (width < 900 ? 0.58 : 0.42);
+  // Leave a dedicated reading area under the generated card.
+  const maxH = height * (compactReveal ? 0.44 : 0.58);
   const imgRatio = revealImage.width / revealImage.height;
   let drawW, drawH;
   if (imgRatio > maxW / maxH) {
@@ -1016,8 +1018,7 @@ function drawReveal() {
   // Title
   if (revealAlpha > 100) {
     const concepts = selectedCards.map((c) => c.concept);
-    const titleY = min(height - 86, height / 2 + drawH / 2 + 32);
-    const conceptsY = min(height - 62, titleY + 22);
+    const titleY = min(height - (compactReveal ? 126 : 156), height / 2 + drawH / 2 + 38);
     const interpretationWidth = min(drawW * 1.5, width * (width < 900 ? 0.86 : 0.72));
     const interpretationX = width / 2 - interpretationWidth / 2;
 
@@ -1096,40 +1097,47 @@ function drawMainRevealFrame(cx, cy, cardW, cardH, alpha) {
 }
 
 function drawRevealReadingPanel(title, concepts, interpretation, x, panelW, titleY) {
-  const textY = min(titleY, height - (height < 760 ? 126 : 148));
+  const compact = height < 760;
+  const textY = min(titleY, height - (compact ? 136 : 166));
   const alpha = constrain((revealAlpha - 95) * 2.4, 0, 235);
 
   push();
-  drawingContext.shadowColor = `rgba(0, 0, 0, ${alpha / 300})`;
-  drawingContext.shadowBlur = 10;
-  textAlign(CENTER, CENTER);
   noStroke();
-  textSize(max(17, min(24, width * 0.021)));
+  textFont("Georgia");
+  textAlign(CENTER, CENTER);
+  textStyle(ITALIC);
+  textSize(max(18, min(25, width * 0.02)));
+  drawingContext.shadowColor = `rgba(0, 0, 0, ${alpha / 240})`;
+  drawingContext.shadowBlur = 8;
   fill(246, 225, 168, alpha);
   text(title, width / 2, textY);
 
-  textSize(max(10, min(12, width * 0.012)));
-  fill(218, 195, 140, alpha * 0.72);
-  text(concepts, width / 2, textY + 23);
+  textStyle(NORMAL);
+  textSize(max(9.5, min(11.5, width * 0.01)));
+  fill(218, 195, 140, alpha * 0.68);
+  text(concepts, width / 2, textY + 24);
 
   drawingContext.shadowBlur = 0;
-  stroke(220, 190, 125, alpha * 0.24);
+  stroke(220, 190, 125, alpha * 0.28);
   strokeWeight(0.8);
-  line(width / 2 - panelW * 0.22, textY + 40, width / 2 + panelW * 0.22, textY + 40);
+  line(width / 2 - panelW * 0.2, textY + 42, width / 2 + panelW * 0.2, textY + 42);
 
-  textSize(max(13, min(16, width * 0.014)));
-  drawingContext.shadowColor = `rgba(0, 0, 0, ${alpha / 280})`;
-  drawingContext.shadowBlur = 8;
+  textAlign(CENTER, TOP);
+  textSize(max(12.5, min(15.5, width * 0.013)));
+  textLeading(max(18, min(23, width * 0.019)));
+  drawingContext.shadowColor = `rgba(0, 0, 0, ${alpha / 230})`;
+  drawingContext.shadowBlur = 7;
   noStroke();
-  fill(238, 222, 184, alpha * 0.94);
+  fill(242, 226, 190, alpha * 0.95);
   text(
     interpretation,
     x,
-    textY + (height < 760 ? 50 : 56),
+    textY + (compact ? 50 : 56),
     panelW,
-    height < 760 ? 70 : 84
+    compact ? 52 : 64
   );
   drawingContext.shadowBlur = 0;
+  textStyle(NORMAL);
   pop();
 }
 
